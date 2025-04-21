@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* <!-- global message  --> */
+.global-message {
+  background: skyblue;
+  height: 2.5rem;
+}
+.global-message > div {
+  display: flex;
+  justify-content: space-between;
+}
+/* <!-- navbar  --> */
+.navbar {
+  background-color: greenyellow;
+  height: 3rem;
+}
+.navbar > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* <!-- hero  --> */
+/* .hero img {
+  height: 50px;
+  height: 100px;
+} */
+.hero {
+  height: 15rem;
+  background-color: green;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.flex > div {
+  background-color: transparent;
+  width: 50rem;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* <!-- Latest Posts --> */
+
+/* <!-- Recommendation Destination --> */
+
+/* <!-- Subscribe --> */
+
+/* <!-- footer  --> */
