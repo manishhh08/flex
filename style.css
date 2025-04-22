@@ -17,35 +17,68 @@
   justify-content: space-between;
 }
 /* <!-- navbar  --> */
-.navbar {
-  background-color: greenyellow;
-  height: 3rem;
+header {
+  height: 100px;
+  background-color: blue;
 }
-.navbar > div {
+header > div {
   display: flex;
   justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  color: white;
 }
-
-/* <!-- hero  --> */
-/* .hero img {
-  height: 50px;
-  height: 100px;
-} */
-.hero {
-  height: 15rem;
-  background-color: green;
-}
-.flex {
+header ul {
   display: flex;
+  gap: 20px;
+}
+header ul > li {
+  list-style-type: none;
+  font-size: 1rem;
+}
+header img {
+  height: 3rem;
+  width: 3.7rem;
+  border-radius: 90%;
+}
+/* hero */
+.hero {
+  height: 400px;
+  /* background-color: red; */
+  background-image: url(./asset/e.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.hero > div {
+  display: flex;
+  height: 100%;
+  align-items: center;
   justify-content: center;
 }
-.flex > div {
-  background-color: transparent;
-  width: 50rem;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+.hero .hero-item {
+  height: 75px;
+  background-color: rgba(128, 126, 126, 0.535);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 20px;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  border: 1px solid;
+  gap: 20px;
 }
+.hero .hero-item > hr {
+  width: 100%;
+}
+.hero .hero-item .hero-description {
+  font-size: 20px;
+}
+.hero .hero-item {
+  font-size: 10px;
+}
+
 /* <!-- Latest Posts --> */
 
 /* <!-- Recommendation Destination --> */
