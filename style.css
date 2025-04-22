@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 /* <!-- global message  --> */
@@ -78,10 +78,42 @@ header img {
 .hero .hero-item {
   font-size: 10px;
 }
-
 /* <!-- Latest Posts --> */
-
-/* <!-- Recommendation Destination --> */
+.latest-post {
+  background-color: aqua;
+}
+.latest-post > div {
+  display: flex;
+  flex-direction: column;
+}
+.latest-post main {
+  display: flex;
+}
+.latest-post .articles {
+  width: 66%;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+.latest-post .side-links {
+  width: 34%;
+  background-color: brown;
+}
+.artcles article {
+  background-color: aqua;
+  display: flex;
+  gap: 5px;
+}
+.articles article .summary {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  background-color: beige;
+}
+.articles
+  article; /* <!-- Recommendation Destination --> */
 
 /* <!-- Subscribe --> */
 
