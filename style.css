@@ -112,8 +112,8 @@ header img {
   flex-direction: column;
   background-color: beige;
 }
-.articles
-  article; /* <!-- Recommendation Destination --> */
+.articles article {
+} /* <!-- Recommendation Destination --> */
 
 /* <!-- Subscribe --> */
 
