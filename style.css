@@ -218,5 +218,14 @@ header img {
   border-right: 1px solid white;
 }
 /* <!-- Subscribe --> */
-
+.subscribe {
+  height: 350px;
+  background-color: lightblue;
+}
+..subscribe .registration-box {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
 /* <!-- footer  --> */
