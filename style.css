@@ -44,7 +44,6 @@ header img {
 /* hero */
 .hero {
   height: 400px;
-  /* background-color: red; */
   background-image: url(./asset/e.jpg);
   background-position: center;
   background-size: cover;
@@ -88,42 +87,60 @@ header img {
 }
 .latest-post main {
   display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+.articles img {
+  height: 5rem;
+  width: 4rem;
+  padding: 5px;
 }
 .latest-post .articles {
-  width: 66%;
-  background-color: pink;
+  width: 80%;
+  background-color: white;
   display: flex;
   flex-direction: column;
   gap: 15px;
   padding: 10px;
 }
-.latest-post .side-links {
-  width: 34%;
-  background-color: brown;
+.latest-post .article-title {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 180px;
 }
-.artcles article {
-  background-color: aqua;
+.latest-post .side-links {
+  width: 25%;
+  background-color: limegreen;
+}
+.articles article {
+  background-color: white;
   display: flex;
   gap: 5px;
+  border: 1px solid black;
 }
-.articles article .summary {
+.articles .article-summary {
   display: flex;
   gap: 10px;
   flex-direction: column;
-  background-color: beige;
+  background-color: blueviolet;
 }
-.articles article {
+.article-btn {
+  background-color: orangered;
+  justify-content: last baseline;
 }
 /* <!-- Recommendation Destination --> */
+
 .container1 {
-  background-color: green;
-  height: 800px;
+  height: 880px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  background-color: burlywood;
 }
 .card {
   height: 600px;
