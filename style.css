@@ -236,3 +236,12 @@ header img {
   align-items: center;
 }
 /* <!-- footer  --> */
+.footer {
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  background-color: black;
+  color: white;
+  gap: 10px;
+}
