@@ -112,7 +112,6 @@ header img {
 }
 .latest-post .side-links {
   width: 25%;
-  background-color: limegreen;
 }
 .articles article {
   background-color: white;
@@ -129,6 +128,22 @@ header img {
 .article-btn {
   background-color: orangered;
   justify-content: last baseline;
+}
+
+.side-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.side-links .top {
+  background-color: limegreen;
+  width: 100%;
+}
+.side-links .bottom {
+  background-color: limegreen;
+  width: 100%;
 }
 /* <!-- Recommendation Destination --> */
 
@@ -196,7 +211,7 @@ header img {
   font-size: 20px;
 }
 .card-footer {
-  background-color: rgba(232, 131, 7, 0.793);
+  /* background-color: rgba(232, 131, 7, 0.793); */
   height: 100%;
   width: 100%;
   display: flex;
@@ -216,8 +231,11 @@ header img {
   min-width: 100px;
 }
 .card-footer div:nth-child(2) {
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.cart-footer .footer-btn {
+  background-color: orangered;
 }
 /* <!-- Subscribe --> */
 .subscribe {
